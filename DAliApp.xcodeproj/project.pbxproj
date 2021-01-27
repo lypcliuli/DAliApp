@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F73D6D80DA58E2D644B6CB /* libPods-DAliApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEB402C102812071C0AF608 /* libPods-DAliApp.a */; };
+		35345D8125651B13003A101B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35345D8025651B13003A101B /* AppDelegate.m */; };
+		35345D8725651B13003A101B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35345D8625651B13003A101B /* ViewController.m */; };
+		35345D8A25651B13003A101B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35345D8825651B13003A101B /* Main.storyboard */; };
+		35345D8C25651B18003A101B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35345D8B25651B18003A101B /* Assets.xcassets */; };
+		35345D8F25651B18003A101B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35345D8D25651B18003A101B /* LaunchScreen.storyboard */; };
+		35345D9225651B18003A101B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35345D9125651B18003A101B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CEA7477966136C4347DB2EC /* Pods-DAliApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAliApp.debug.xcconfig"; path = "Target Support Files/Pods-DAliApp/Pods-DAliApp.debug.xcconfig"; sourceTree = "<group>"; };
+		35345D7C25651B13003A101B /* DAliApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAliApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35345D7F25651B13003A101B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35345D8025651B13003A101B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35345D8525651B13003A101B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35345D8625651B13003A101B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35345D8925651B13003A101B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35345D8B25651B18003A101B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35345D8E25651B18003A101B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35345D9025651B18003A101B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35345D9125651B18003A101B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3599353425C14E8B00352F7C /* DAliApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DAliApp.entitlements; sourceTree = "<group>"; };
+		7818770197366C5331E845A7 /* Pods-DAliApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAliApp.release.xcconfig"; path = "Target Support Files/Pods-DAliApp/Pods-DAliApp.release.xcconfig"; sourceTree = "<group>"; };
+		ADEB402C102812071C0AF608 /* libPods-DAliApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DAliApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35345D7925651B13003A101B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F73D6D80DA58E2D644B6CB /* libPods-DAliApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35345D7325651B13003A101B = {
+			isa = PBXGroup;
+			children = (
+				35345D7E25651B13003A101B /* DAliApp */,
+				35345D7D25651B13003A101B /* Products */,
+				5039E634097D398D13D9F54C /* Frameworks */,
+				CCD94F8EA5A0403ED141705E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		35345D7D25651B13003A101B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35345D7C25651B13003A101B /* DAliApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35345D7E25651B13003A101B /* DAliApp */ = {
+			isa = PBXGroup;
+			children = (
+				3599353425C14E8B00352F7C /* DAliApp.entitlements */,
+				35345D7F25651B13003A101B /* AppDelegate.h */,
+				35345D8025651B13003A101B /* AppDelegate.m */,
+				35345D8525651B13003A101B /* ViewController.h */,
+				35345D8625651B13003A101B /* ViewController.m */,
+				35345D8825651B13003A101B /* Main.storyboard */,
+				35345D8B25651B18003A101B /* Assets.xcassets */,
+				35345D8D25651B18003A101B /* LaunchScreen.storyboard */,
+				35345D9025651B18003A101B /* Info.plist */,
+				35345D9125651B18003A101B /* main.m */,
+			);
+			path = DAliApp;
+			sourceTree = "<group>";
+		};
+		5039E634097D398D13D9F54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB402C102812071C0AF608 /* libPods-DAliApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD94F8EA5A0403ED141705E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CEA7477966136C4347DB2EC /* Pods-DAliApp.debug.xcconfig */,
+				7818770197366C5331E845A7 /* Pods-DAliApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35345D7B25651B13003A101B /* DAliApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35345D9525651B18003A101B /* Build configuration list for PBXNativeTarget "DAliApp" */;
+			buildPhases = (
+				A70504E3538864E1C4BA3577 /* [CP] Check Pods Manifest.lock */,
+				35345D7825651B13003A101B /* Sources */,
+				35345D7925651B13003A101B /* Frameworks */,
+				35345D7A25651B13003A101B /* Resources */,
+				2CACD7F286DA11F05837C1D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAliApp;
+			productName = DAliApp;
+			productReference = 35345D7C25651B13003A101B /* DAliApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35345D7425651B13003A101B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = baidu.com;
+				TargetAttributes = {
+					35345D7B25651B13003A101B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 35345D7725651B13003A101B /* Build configuration list for PBXProject "DAliApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35345D7325651B13003A101B;
+			productRefGroup = 35345D7D25651B13003A101B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35345D7B25651B13003A101B /* DAliApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35345D7A25651B13003A101B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35345D8F25651B18003A101B /* LaunchScreen.storyboard in Resources */,
+				35345D8C25651B18003A101B /* Assets.xcassets in Resources */,
+				35345D8A25651B13003A101B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CACD7F286DA11F05837C1D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAliApp/Pods-DAliApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAliApp/Pods-DAliApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DAliApp/Pods-DAliApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70504E3538864E1C4BA3577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DAliApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35345D7825651B13003A101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35345D8725651B13003A101B /* ViewController.m in Sources */,
+				35345D8125651B13003A101B /* AppDelegate.m in Sources */,
+				35345D9225651B18003A101B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35345D8825651B13003A101B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35345D8925651B13003A101B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35345D8D25651B18003A101B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35345D8E25651B18003A101B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35345D9325651B18003A101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35345D9425651B18003A101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35345D9625651B18003A101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEA7477966136C4347DB2EC /* Pods-DAliApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DAliApp/DAliApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R99WCXJXXA;
+				INFOPLIST_FILE = DAliApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DianXiaoer.Electric2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xiaogeDev210122;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35345D9725651B18003A101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7818770197366C5331E845A7 /* Pods-DAliApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DAliApp/DAliAppRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R99WCXJXXA;
+				INFOPLIST_FILE = DAliApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DianXiaoer.Electric2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35345D7725651B13003A101B /* Build configuration list for PBXProject "DAliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35345D9325651B18003A101B /* Debug */,
+				35345D9425651B18003A101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35345D9525651B18003A101B /* Build configuration list for PBXNativeTarget "DAliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35345D9625651B18003A101B /* Debug */,
+				35345D9725651B18003A101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35345D7425651B13003A101B /* Project object */;
+}
